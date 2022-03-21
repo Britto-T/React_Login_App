@@ -10,7 +10,7 @@
 
 .container {
   background-color: lightsteelblue;
-  height: 100vh;
+  height:100vh;
   width: 100%;
 }
 
@@ -21,19 +21,52 @@
 }
 
 .fieldWrapper {
-  width: 60vh;
+  width: 40vh;
   margin: 20px auto;
   text-align: center;
-  background-color: gainsboro;
+  background-color: rgb(240, 234, 234);
   display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr; 
+  grid-column-end: 7;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
+
 .btnSubmit {
   width: 65px;
   color: white;
   text-align: center;
   background-color: green;
   border-radius: 5px;
-  margin:auto;
+  margin-top: 2%;
+}
+
+.btnReset {
+  width: 65px;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+.section{
+  width:26vh;
+  color:white;
+  background-color:rgb(233, 122, 227);
+  margin:2px auto;
+  padding: 5px 10px 5px 5px;
+  hyphens: auto;
+  color:black;
+}
+
+.divSection{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.divCount{
+display:flex;
+justify-content:flex-end;
 }
