@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
+import NavBar from './NavBar';
+import FlexNavBar from './FlexNavBar';
 
 function App() {
   return (
@@ -21,7 +23,12 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <Home/>
+    <>
+     <NavBar/>
+    <FlexNavBar/>
+    </>
+   
+    // <Home/>
   );
 }
 
